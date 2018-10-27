@@ -50,8 +50,8 @@ public class LoginActivity extends AppCompatActivity {
                         String value = String.valueOf(map.get(email.getText().toString()));
                         if(value.equals(p.getText().toString())) {
                             Toast.makeText(getApplicationContext(), "ยินตีต้อนรับเข้าสู่ระบบ", Toast.LENGTH_LONG).show();
-                            System.out.println(p.getText().toString());
-                            //startActivity(new Intent(login.this,homepage.class));
+                            startActivity(new Intent(LoginActivity.this, SelectActivity.class));
+
                         }else{
                             Toast.makeText(getApplicationContext(), "ชื่อผู้ใช้ หรือ รหัสผ่าน ไม่ถูกต้อง", Toast.LENGTH_LONG).show();
                         }
