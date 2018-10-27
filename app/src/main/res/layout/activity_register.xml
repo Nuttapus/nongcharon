@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".RegisterActivity">
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginBottom="77dp"
+        android:background="#FFFFFF"
+        android:text="@string/btnInsert"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameRegis"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/txtNameRegis"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPassword"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <EditText
+        android:id="@+id/txtConfirmPassRegis"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="366dp"
+        android:layout_height="252dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="430dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163"
+        app:srcCompat="@drawable/logo_register" />
+
+    <EditText
+        android:id="@+id/txtUsernameRegis"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <EditText
+        android:id="@+id/txtPasswordRegis"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="100dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="77dp"
+        android:background="#FFFFFF"
+        android:text="@string/btnBack"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnInsert"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameRegis"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>
