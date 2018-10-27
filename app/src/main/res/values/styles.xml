@@ -8,4 +8,24 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <string-array name="county">
+        <item>ชลบุรี</item>>
+        <item>กรุงเทพ</item>>
+        <item>นครนายก</item>>
+        <item>เชียงใหม่</item>>
+        <item>นครปฐม</item>>
+        <item>เชียงราย</item>>
+
+    </string-array>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

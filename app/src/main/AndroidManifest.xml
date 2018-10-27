@@ -16,8 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity"/>
-        <activity android:name=".SelectActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SelectActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".WriteActivity" />
+        <activity android:name=".ViewActivity" />
+        <activity android:name=".DetailsActivity"></activity>
     </application>
 
 </manifest>
